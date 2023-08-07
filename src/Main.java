@@ -25,12 +25,12 @@ public class Main {
 
 
 
-        System.out.println("Значение переменной с типом а равно " + a + "." + "\n" +
-                "Значение переменной с типом а равно " + b + "." + "\n" +
-                "Значение переменной с типом а равно " + c + "." + "\n" +
-                "Значение переменной с типом а равно " + d + "." + "\n" +
-                "Значение переменной с типом а равно " + e + "." + "\n" +
-                "Значение переменной с типом а равно " + f + ".");
+        System.out.println("Значение переменной с типом а равно " + a + ".");
+        System.out.println("Значение переменной с типом а равно " + b + ".");
+        System.out.println("Значение переменной с типом а равно " + c + ".");
+        System.out.println("Значение переменной с типом а равно " + d + ".");
+        System.out.println("Значение переменной с типом а равно " + e + ".");
+        System.out.println("Значение переменной с типом а равно " + f + ".");
 
     }
 
@@ -159,14 +159,17 @@ public class Main {
         int mashaTotal = masha + mashaPlus;
         int denisTotal = denis + denisPlus;
         int kristinaTotal = kristina + kristinaPlus;
+        int mashaYear = mashaPlus * 12;
+        int denisYear = denisPlus * 12;
+        int kristinaYear = kristinaPlus * 12;
 
 
 
-        System.out.println("Маша теперь получает " + mashaTotal + " рублей. Годовой доход вырос на " + mashaPlus
+        System.out.println("Маша теперь получает " + mashaTotal + " рублей. Годовой доход вырос на " + mashaYear
                 + " рублей." + "\n" +
-                "Денис теперь получает " + denisTotal + " рублей. Годовой доход вырос на " + denisPlus
+                "Денис теперь получает " + denisTotal + " рублей. Годовой доход вырос на " + denisYear
                 + " рублей." + "\n" +
-                "Кристина теперь получает " + kristinaTotal + " рублей. Годовой доход вырос на " + kristinaPlus
+                "Кристина теперь получает " + kristinaTotal + " рублей. Годовой доход вырос на " + kristinaYear
                 + " рублей.");
 
     }
